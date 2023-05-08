@@ -101,7 +101,7 @@ img {
     padding: 0.7em 1.7em;
     font-size: 18px;
     border-radius: 0.5em;
-    background: var(--color-secondary);
+    background: var(--color-light);
     border: 1px solid var(--color-primary);
   }
   
@@ -127,7 +127,7 @@ img {
   
   .btn:hover {
     color: var(--color-light);
-    border: 1px solid var(--color-black);
+    border: 1px solid var(--color-light);
   }
   
   .btn:hover:before {
@@ -269,12 +269,13 @@ nav button {
     gap: 3rem;
 }
 
-.navbar_logo h3 {
-font-size: 1.7rem;
+.navbar_logo {
+    font-size: 1.7rem;
+    color: var(--color-light);
 }
 
 .btn_navbar {
-    color: var(--color-secondary);
+    color: var(--color-white);
     text-decoration: none;
     border: none;
     background: none;
@@ -310,12 +311,8 @@ header {
 
 .header_title {
     padding-top: 12rem;
-
-}
-
-.header_title:hover {
     color: var(--color-light);
-    
+
 }
 
 header p {
