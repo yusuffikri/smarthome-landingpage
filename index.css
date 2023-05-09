@@ -312,7 +312,10 @@ header {
 .header_title {
     padding-top: 12rem;
     color: var(--color-light);
-
+}
+.header_title:hover {
+    padding-top: 12rem;
+    color: var(--color-black);
 }
 
 header p {
@@ -356,11 +359,11 @@ header p {
 }
 
 .header_socials a {
-    color: var(--color-primary);
+    color: var(--color-light);
 }
 
 .header_socials a:hover {
-    color: var(--color-light);
+    color: var(--color-black);
 }
 
 .header_decoration-1 {
@@ -370,4 +373,28 @@ header p {
     position: absolute;
     right: 0;
     margin-top: -24rem;
+}
+
+/* ABOUT */
+
+.about_title {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.about_article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.about_article-title {
+    color: var(--color-black);
+    margin-bottom: 1.5rem;
+}
+
+.btn-about {
+    margin-top: 1.5rem;
 }
