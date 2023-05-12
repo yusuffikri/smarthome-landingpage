@@ -564,7 +564,12 @@ header p {
 /* END OF FAQS */
 
 /* DOWNLOAD APP */
+
+#downloadApp h1 {
+    color: var(--color-black);
+}
 .downloadApp_container {
+
     display: grid;
     grid-template-columns: 40% 60%;
     align-items: center;
