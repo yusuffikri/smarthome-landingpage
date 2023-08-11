@@ -721,3 +721,73 @@ footer ul li a::hover {
     color: var(--color-white);
     border-top: 1px solid var(--color-light);
 }
+
+/* MEDIA QUERIES TABLET */
+
+@media screen and (maxwidth: 1024px) {
+    .container {
+        width: var(--container-width-tablet);
+    }
+    
+    h1 {
+        font-size: 4.2rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.9rem;
+    }
+
+    .lead {
+        width: 72%;
+        margin-bottom: 3rem;
+    }
+
+    section {
+        padding-bottom: var(--bottom-section-padding);
+    }
+
+    /* NAVBAR */
+    nav {
+        background: var(--color-primary);
+    }
+
+    .navbar_container {
+        position: relative;
+        width: 100vw;
+    }
+
+    .navbar_logo {
+        margin-left: 2rem;
+        position: relative;
+    }
+
+    .navbar_items {
+        position: fixed;
+        top: 6rem;
+        right: 0;
+        background: var(--color-white);
+        height: max-content;
+        width: 18rem;
+        box-shadow: -2rem 2rem 3rem rgba(0, 0, 0, 0.2);
+        flex-direction: column;
+        gap: 0;
+        z-index: 3;
+    }
+
+    .navbar_items li {
+        width: 100%;
+        height: 6rem;
+    }
+
+    .navbar_items li a {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        padding-left: 3rem;
+        align-items: center;
+    }
+}
